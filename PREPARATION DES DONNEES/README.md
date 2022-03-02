@@ -1,4 +1,4 @@
-PREPARATION DES DONNÉES
+               PREPARATION DES DONNÉES
 
 Pour notre travail nous avons utilisé l'IDE Spyder, inclus dans Anaconda Navigator. notre travail a été axé sur les points suivants:
 1) chargement des données
