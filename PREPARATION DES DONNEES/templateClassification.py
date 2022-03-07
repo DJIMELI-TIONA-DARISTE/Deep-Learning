@@ -1,4 +1,4 @@
-#Regression logistique
+# TEMPLATE CLASSIFICATION 
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -22,10 +22,10 @@ sc_x = StandardScaler()
 x_train = sc_x.fit_transform(x_train)
 x_test = sc_x.transform(x_test)
 
-#régression logistique sur le jeu d'entrainement
-from sklearn.linear_model import LogisticRegression
-classifier = LogisticRegression(random_state=0)
-classifier.fit(x_train, y_train)
+#entrenement sur le jeu d'entrainement
+'''
+creer votre propre classifier
+'''
 
 #prédiction sur le jeu de test 
 y_predic = classifier.predict(x_test)
