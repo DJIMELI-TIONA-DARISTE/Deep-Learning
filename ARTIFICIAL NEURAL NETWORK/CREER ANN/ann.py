@@ -51,5 +51,28 @@ classifier.add(Dense(units=6,activation="relu",kernel_initializer="uniform",
 # AJOUTER UNE COUCHE CACHEE
 classifier.add(Dense(units=6,activation="relu",kernel_initializer="uniform"))
 
+# AJOUTER LA COUCHE DE SORTIE
+classifier.add(Dense(units=1,activation="sigmoid",kernel_initializer="uniform")) 
+
+# COMPILER  LE RESEAU DE NEURONE 
+classifier.compile(optimizer="adam", loss="binary_crossentropy",
+                   metrics=[ "accuracy"])
+
+# ENTRAINER LE RESEAU DE NEURONE 
+classifier.fit( x_train, y_train, batch_size=10, epochs=100)
+
+#prédiction sur le jeu de test 
+y_predic = classifier.predict(x_test) 
+y_predic = ( y_predic > 0.5)
+
+#Evaluation du model : Matrice de confusion 
+from sklearn.metrics import confusion_matrix
+mc = confusion_matrix(y_test, y_predic)
+
+
+
+
+
+
 
 
