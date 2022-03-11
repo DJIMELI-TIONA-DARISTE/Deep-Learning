@@ -17,3 +17,11 @@ En effet cet base de données comporte 12 variables indépendante à savoir :
 - [ ] HasCrCard
 - [ ] IsActiveMember
 - [ ] EstimatedSalary
+- [ ] Exited
+
+
+
+
+
+
+
