@@ -4,7 +4,7 @@ Nous allons travailler sur la base de données d'une banque virtuel, qui comport
 
 ![dataset banque](https://user-images.githubusercontent.com/82275987/157844581-9b6e8f62-d3be-4bab-be11-cacf46f6c60b.PNG)
 
-En effet cet base de données comporte 12 variables indépendante à savoir :
+En effet cet base de données comporte 12 variables indépendante et une variable dépendante (Exited) à savoir :
 - [ ] CustomerId
 - [ ] Surname
 - [ ] CreditScore
@@ -18,7 +18,7 @@ En effet cet base de données comporte 12 variables indépendante à savoir :
 - [ ] IsActiveMember
 - [ ] EstimatedSalary
 - [ ] Exited
-
+**PROBLÈME  À RÉSOUDRE:**  A travers les douze variables indépendantes permettre a la banque de prédire si un nouveau client est susceptible de quitter la banque ou pas. 
 
 
 
