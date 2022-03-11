@@ -19,7 +19,7 @@ En effet cet base de données comporte 12 variables indépendante et une variabl
 - [ ] EstimatedSalary
 - [ ] Exited
 
-**PROBLÈME  À RÉSOUDRE:**  A travers les douze variables indépendantes permettre a la banque de prédire si un nouveau client est susceptible de quitter la banque ou pas. 
+**PROBLÈME  À RÉSOUDRE:**  A travers les douze variables indépendantes, permettre a la banque de prédire si un nouveau client est susceptible de quitter la banque ou pas. 
 
 
 
